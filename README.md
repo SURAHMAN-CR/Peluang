@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -78,6 +77,24 @@
             font-style: italic;
             color: #cccccc;
             font-size: 0.9em;
+        }
+        
+        .game-title-center {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .peluang-title {
+            font-size: 4em;
+            font-weight: bold;
+            color: #ffcc00;
+            text-shadow: 0 0 20px rgba(255, 204, 0, 0.7);
+            margin: 0;
+            letter-spacing: 5px;
+            background: linear-gradient(45deg, #ffcc00, #ff9900, #ffcc00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         
         header {
@@ -416,6 +433,10 @@
             .school-logo-container {
                 justify-content: center;
             }
+            
+            .peluang-title {
+                font-size: 2.5em;
+            }
         }
     </style>
 </head>
@@ -434,6 +455,10 @@
             <div class="game-title">
                 <h1>Misteri Peluang</h1>
             </div>
+        </div>
+        
+        <div class="game-title-center">
+            <div class="peluang-title">PELUANG</div>
         </div>
         
         <header>
